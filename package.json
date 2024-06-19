@@ -2,7 +2,7 @@
   "name": "test",
   "version": "1.0.0",
   "scripts": {
-    "test": "tsx --enable-source-maps --test index.test.ts",
+    "test": "tsx --test index.test.ts",
     "test:coverage": "c8 npm run test",
     "test:nyc": "nyc npm run test"
   },
